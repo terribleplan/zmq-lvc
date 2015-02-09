@@ -1,0 +1,27 @@
+{
+  "name": "zmq-lvc",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terribleplan/zmq-lvc.git"
+  },
+  "keywords": [
+    "zmq",
+    "lvc",
+    "cache"
+  ],
+  "author": "Kegan Myers <kegan@keganmyers.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terribleplan/zmq-lvc/issues"
+  },
+  "homepage": "https://github.com/terribleplan/zmq-lvc",
+  "dependencies": {
+    "zmq": "^2.10.0"
+  }
+}

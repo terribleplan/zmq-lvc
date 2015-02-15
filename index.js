@@ -3,6 +3,9 @@ var zmq = require('zmq');
 function lvcWithSockets(sub, xpub) {
     var cache = {};
     sub.on('message', function(topic, message) {
+        if (cache[topic] === message) {
+            return;
+        }
         cache[topic] = message;
         xpub.send([topic, message]);
     });

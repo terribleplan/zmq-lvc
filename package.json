@@ -1,7 +1,7 @@
 {
   "name": "zmq-lvc",
   "version": "0.1.1",
-  "description": "",
+  "description": "zmq-lvc is a super simple Latest Value Cache in node.js for ZeroMQ.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
